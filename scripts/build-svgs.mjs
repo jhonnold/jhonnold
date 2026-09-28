@@ -144,7 +144,7 @@ const TH = 32;
 const base = 21;
 const left = text(monoBold, '[jhonnold]', 14, base, 13, c.navy);
 let x = left.end + 18;
-const tabs = ['0:readme', '1:about', '2:experience', '3:works', '4:contact'].map((label, i) => {
+const tabs = ['0:readme', '1:about', '2:contact'].map((label, i) => {
     const t = text(i ? mono : monoBold, label, x + 10, base, 13, i ? c.navy : c.amber);
     const bg = i ? '' : `<rect x="${x.toFixed(1)}" y="4" width="${(t.end - x + 10).toFixed(1)}" height="24" fill="${c.navy}"/>`;
     x = t.end + 10;
@@ -153,7 +153,7 @@ const tabs = ['0:readme', '1:about', '2:experience', '3:works', '4:contact'].map
 const right = 'honnold.me';
 const rightWidth = text(mono, right, 0, 0, 13, '').end;
 const tmux = `<svg xmlns="http://www.w3.org/2000/svg" width="${TW}" height="${TH}" viewBox="0 0 ${TW} ${TH}" role="img" aria-labelledby="t">
-<title id="t">tmux status bar: [jhonnold] 0:readme 1:about 2:experience 3:works 4:contact · honnold.me</title>
+<title id="t">tmux status bar: [jhonnold] 0:readme 1:about 2:contact · honnold.me</title>
 <rect width="${TW}" height="${TH}" rx="4" fill="${c.amber}"/>
 ${left.svg}
 ${tabs.join('\n')}
