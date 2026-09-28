@@ -4,9 +4,9 @@
 
 **Agents by day, homelab by night.**
 
-I'm a senior software engineer at Cognite, where I work on the platform behind Atlas AI: the agentic loop, model integrations, and the tools the agents call. Before that I spent five years at Amazon and AWS, mostly turning manual processes into automated systems. At AWS that work saved more than 50 developer-years.
+I'm a senior software engineer at Cognite. I work on the platform behind Atlas AI, from the agentic loop and model integrations to the tools the agents call. Before Cognite I spent five years at Amazon and AWS, mostly automating work people had been doing by hand. At AWS that saved more than 50 developer-years.
 
-At home I run a three-node Proxmox cluster the way I'd run production: configs in git with CI, monitoring, and encrypted offsite backups. It also hosts my local LLM stack on an RTX 4090. In my spare time I write [Berserk](https://github.com/jhonnold/berserk), an open-source chess engine in C that ranks among the strongest in the world.
+At home I run a three-node Proxmox cluster the way I'd run production, with every config in git behind CI and encrypted offsite backups. It also hosts my local LLM stack on an RTX 4090. In my spare time I write [Berserk](https://github.com/jhonnold/berserk), an open-source chess engine in C. It's rated 3514 on CCRL 40/15 and plays in TCEC's Premier Division.
 
 ```ts
 export const jay = {
@@ -20,7 +20,7 @@ export const jay = {
 
 ### `$ ./contact.sh`
 
-**Let's build something.** Happy to talk about AI agents, homelabs, or chess engine tuning.
+I'm happy to talk about AI agents, homelabs, or chess engine tuning.
 
 [honnold.me ↗](https://honnold.me) · [linkedin ↗](https://www.linkedin.com/in/jay-honnold-158b553a9/)
 
